@@ -1,0 +1,15 @@
+{
+  "numero_sesion": 42,
+  "titulo": "Introducción a React",
+  "generado_con": "claude-3-5-sonnet-20241022",
+  "archivos_generados": [
+    "claude_raw.txt",
+    "contenido.md",
+    "PersonalCard.jsx",
+    "styles.css"
+  ],
+  "estructura": {
+    "necesita_codigo": true,
+    "necesita_capturas": false
+  }
+}

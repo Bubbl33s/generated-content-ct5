@@ -1,0 +1,57 @@
+// Perfil.js
+import React from 'react';
+import './Perfil.css';
+
+function Perfil() {
+  return (
+    <div className="perfil-container">
+      <h1>Mi Perfil</h1>
+      <div className="info-personal">
+        <h2>Ana García</h2>
+        <p>Me encanta programar y diseñar websites</p>
+        <h3>Mis hobbies:</h3>
+        <ul>
+          <li>🎨 Dibujar</li>
+          <li>🎮 Videojuegos</li>
+          <li>📚 Leer</li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default Perfil;
+
+// Perfil.css
+.perfil-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.info-personal {
+  text-align: center;
+}
+
+.info-personal h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info-personal p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.info-personal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-personal li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
