@@ -1,0 +1,14 @@
+{
+  "numero_sesion": 52,
+  "titulo": "Diseño responsive con Tailwind + Uso de IA para generación y manipulación de datos II",
+  "generado_con": "claude-3-5-sonnet-20241022",
+  "archivos_generados": [
+    "claude_raw.txt",
+    "contenido.md",
+    "actividades.jsx"
+  ],
+  "estructura": {
+    "necesita_codigo": true,
+    "necesita_capturas": false
+  }
+}

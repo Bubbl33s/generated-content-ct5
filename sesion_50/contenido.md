@@ -7,6 +7,13 @@ Sesión 50
 - Trabajar en equipo
 - ¡Preguntar cuando tengamos dudas!
 
+## 🎯 Objetivos de la sesión
+- Comprender qué es Tailwind CSS y sus ventajas
+- Configurar Tailwind en nuestro proyecto React
+- Aprender las clases básicas de espaciado y colores
+- Crear nuestros primeros componentes estilizados con Tailwind
+- Comparar Tailwind CSS vs CSS tradicional
+
 ## Actividad inicial 💭
 ¿Si pudieras diseñar tu propia red social, qué aspecto visual tendría?
 
@@ -110,8 +117,8 @@ Creemos una tarjeta de perfil simple:
 const TarjetaPerfil = () => {
   return (
     <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
-      <img 
-        src="https://via.placeholder.com/150" 
+      <img
+        src="https://via.placeholder.com/150"
         alt="Foto de perfil"
         className="w-24 h-24 rounded-full"
       />
